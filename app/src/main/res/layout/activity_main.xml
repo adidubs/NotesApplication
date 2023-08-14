@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/notesRegion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_480sdp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+
+            />
+
+    </LinearLayout>
+
+
+<!--  button region-->
+    <LinearLayout
+        android:layout_marginTop="@dimen/_480sdp"
+        android:id="@+id/buttonRegion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@drawable/button_bg"
+        android:orientation="horizontal">
+
+
+<!--        Button 1-->
+
+        <LinearLayout
+
+            android:id="@+id/micButton"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:background="@drawable/round_btn"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/mic"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    <!--button 2-->
+        <LinearLayout
+            android:id="@+id/imageButton"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/round_btn"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="IMG 2 TXT"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+<!--        Button 3-->
+        <LinearLayout
+
+            android:id="@+id/scanButton"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_btn"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/qr_icon"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

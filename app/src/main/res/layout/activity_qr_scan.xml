@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    tools:context=".qrScan">
+
+    <TextView
+        android:id="@+id/textFormat"
+        android:text="QR -CODE"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="@dimen/_50sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:textSize="@dimen/_20sdp"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:background="@drawable/qr_icon"
+        android:layout_gravity="center"
+        />
+
+
+
+    <EditText
+        android:id="@+id/textContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_bg"
+        android:text="Notes Application welcome you!"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_17sdp"
+        android:padding="@dimen/_10sdp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:background="@drawable/button_bg"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+    <Button
+        android:id="@+id/copyBtn"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        android:background="@drawable/round_btn"
+        android:layout_gravity="center"
+        android:text="Copy Text"/>
+
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_btn"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:text="Scan"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ABES EC Hack 2022/notes/Notes_App_HackCBS_5.0-master/app/src/main/res/layout/activity_image_to_text.xml" value="0.17552083333333332" />
+        <entry key="..\:/ABES EC Hack 2022/notes/Notes_App_HackCBS_5.0-master/app/src/main/res/layout/activity_note_editor.xml" value="0.17552083333333332" />
+        <entry key="..\:/ABES EC Hack 2022/notes/Notes_App_HackCBS_5.0-master/app/src/main/res/layout/activity_qr_scan.xml" value="0.16666666666666666" />
+        <entry key="..\:/ABES EC Hack 2022/notes/Notes_App_HackCBS_5.0-master/app/src/main/res/layout/activity_speech_to_text.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK" />
+</project>
